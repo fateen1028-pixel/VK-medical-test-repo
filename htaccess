@@ -1,0 +1,18 @@
+RewriteEngine On
+
+
+
+
+RewriteCond %{THE_REQUEST} ^.*/index\.php?\sHTTP/
+RewriteRule (.*)index\.php?$  https://vkmedicalcentre.com/ [R=301,L]
+
+
+RewriteCond %{THE_REQUEST} ^.*/about-us\.php?\sHTTP/
+RewriteRule (.*)about-us\.php?$  https://vkmedicalcentre.com/about-us [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/contact\.php?\sHTTP/
+RewriteRule (.*)contact\.php?$  https://vkmedicalcentre.com/contact [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^.*/Audiometry\.php?\sHTTP/
+RewriteRule (.*)Audiometry\.php?$  https://vkmedicalcentre.com/Audiometry [R=301,L]
+
