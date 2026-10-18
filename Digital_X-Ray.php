@@ -12,8 +12,7 @@
 
 		<meta charset="utf-8">
 		<title><?php echo $variable; ?> | VK Medical Centre - Chennai</title>
-        <base href="../" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		      <meta name="google-site-verification" content="mIIe5_lA0bHp00CTbbBgSpg_x90y3hMtIm9CTxMrnjQ">
 <meta name="description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
 <meta name="robots" content="max-image-preview:large">

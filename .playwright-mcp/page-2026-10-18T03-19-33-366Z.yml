@@ -1,0 +1,275 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - generic [ref=f3e5]:
+      - generic [ref=f3e6]:
+        - paragraph [ref=f3e7]:
+          - generic [ref=f3e8]: ӳ
+          - text: vkmedicalcentre@gmail.com
+        - paragraph [ref=f3e9]:
+          - generic [ref=f3e10]:
+            - generic [ref=f3e11]: ͽ
+            - text: +91 7299991586
+      - list [ref=f3e12]:
+        - listitem [ref=f3e13]:
+          - generic [ref=f3e14]:
+            - button "facebook" [ref=f3e15] [cursor=pointer]:
+              - generic [ref=f3e16]: 
+            - button "youtube" [ref=f3e17] [cursor=pointer]:
+              - generic [ref=f3e18]: 
+            - button "instagram" [ref=f3e19] [cursor=pointer]:
+              - generic [ref=f3e20]: 
+    - banner [ref=f3e21]:
+      - navigation [ref=f3e23]:
+        - generic [ref=f3e24]:
+          - text: 
+          - link [ref=f3e25] [cursor=pointer]:
+            - /url: index.php
+            - img "Logo" [ref=f3e26]
+        - generic [ref=f3e28]:
+          - text: 
+          - list [ref=f3e29]:
+            - listitem [ref=f3e30]:
+              - link "Home" [ref=f3e31] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f3e32]:
+              - link "About Us" [ref=f3e33] [cursor=pointer]:
+                - /url: about.php
+            - listitem [ref=f3e34]:
+              - link "Services" [ref=f3e35] [cursor=pointer]:
+                - /url: services.php
+            - listitem [ref=f3e36]:
+              - link "Book Test" [ref=f3e37] [cursor=pointer]:
+                - /url: book-test.php
+            - listitem [ref=f3e38]:
+              - link "Blog" [ref=f3e39] [cursor=pointer]:
+                - /url: blogs.php
+            - listitem [ref=f3e40]:
+              - button "Contact Us " [ref=f3e41] [cursor=pointer]:
+                - text: Contact Us
+                - generic [ref=f3e42]: 
+          - text:     
+        - list [ref=f3e44]:
+          - listitem [ref=f3e45]:
+            - button "about" [ref=f3e46] [cursor=pointer]:
+              - generic [ref=f3e47]: Ӟ
+    - generic [ref=f3e48]:
+      - navigation "breadcrumb" [ref=f3e52]:
+        - list [ref=f3e53]:
+          - listitem [ref=f3e54]:
+            - link "home" [ref=f3e55] [cursor=pointer]:
+              - /url: index.php
+              - generic [ref=f3e56]: Ґ
+          - listitem [ref=f3e57]:  About Us
+        - heading "About Us" [level=2] [ref=f3e58]
+      - generic:
+        - img "img" [ref=f3e59]
+        - img "img" [ref=f3e60]
+        - img "img" [ref=f3e61]
+        - img "img" [ref=f3e62]
+    - generic [ref=f3e65]:
+      - generic [ref=f3e68]:
+        - generic [ref=f3e70]:
+          - img "about-image" [ref=f3e72]
+          - img "about-image" [ref=f3e74]
+        - generic [ref=f3e76]:
+          - heading "Over 35 Years Experience" [level=4] [ref=f3e78]
+          - img "about-image" [ref=f3e80]
+      - generic [ref=f3e81]:
+        - generic [ref=f3e82]:
+          - heading "About Our Company" [level=6] [ref=f3e83]
+          - heading "Trusted Diagnostic Excellence Since 1990" [level=2] [ref=f3e84]
+        - generic [ref=f3e85]:
+          - generic [ref=f3e86]:
+            - paragraph [ref=f3e87]: Established in 1990, V K Medical Centre is committed to providing high-quality diagnostic services in Chennai.
+            - paragraph [ref=f3e88]: With decades of expertise, we are recognized as a leading independent diagnostic facility in India, trusted for accurate results, advanced technology, and exceptional care.
+          - generic [ref=f3e89]:
+            - generic [ref=f3e90]: Ϳ
+            - generic [ref=f3e93]:
+              - paragraph [ref=f3e94]: Need Emergency?
+              - heading "+91 9445983350 / 044 - 23633350" [level=4] [ref=f3e95]
+    - generic [ref=f3e97]:
+      - heading "Why Choose Us" [level=2] [ref=f3e101]
+      - generic [ref=f3e102]:
+        - generic [ref=f3e105]:
+          - img "choose-image" [ref=f3e108]
+          - generic [ref=f3e109]:
+            - heading "High Quality Services" [level=4] [ref=f3e110]
+            - paragraph [ref=f3e111]: Trusted diagnostic centre in Chennai offering high-quality lab services with fast and precise results.
+        - generic [ref=f3e114]:
+          - img "choose-image" [ref=f3e117]
+          - generic [ref=f3e118]:
+            - heading "24 Hours Service" [level=4] [ref=f3e119]
+            - paragraph [ref=f3e120]: Experience the healthcare access with our 24/7 service. Whether it's day or night, you can find & book appointments.
+        - generic [ref=f3e123]:
+          - img "choose-image" [ref=f3e126]
+          - generic [ref=f3e127]:
+            - heading "Quick Working Process" [level=4] [ref=f3e128]
+            - paragraph [ref=f3e129]: Streamlined diagnostic process for fast, hassle-free testing and quick report delivery.
+        - generic [ref=f3e132]:
+          - img "choose-image" [ref=f3e135]
+          - generic [ref=f3e136]:
+            - heading "Good Customer Support" [level=4] [ref=f3e137]
+            - paragraph [ref=f3e138]: Responsive and friendly customer support to guide you through every step of your diagnostic journey.
+    - generic [ref=f3e139]:
+      - generic [ref=f3e141]:
+        - img "about" [ref=f3e144]
+        - generic [ref=f3e147]:
+          - generic [ref=f3e150]:
+            - generic [ref=f3e151]:
+              - img "mission" [ref=f3e153]
+              - heading "Our Mission" [level=3] [ref=f3e154]
+            - paragraph [ref=f3e155]: VK Medical Centre is to serve you and your family with the expertise and personal attention that you expect from mission health. With locally based customer service, we make every visit as convenient as possible. Getting a lab appointment in your busy schedule can be difficult. So, we do provide a Lab Express, where we come home and do the test and issue the result later.
+          - generic [ref=f3e158]:
+            - generic [ref=f3e159]:
+              - img "vision" [ref=f3e161]
+              - heading "Our Vision" [level=3] [ref=f3e162]
+            - paragraph [ref=f3e163]: V K Medical Centre was established to enhance testing efficiency and set new quality benchmarks through international best practices in laboratory diagnostics
+          - generic [ref=f3e166]:
+            - generic [ref=f3e167]:
+              - img "mission" [ref=f3e169]
+              - heading "Our Values" [level=3] [ref=f3e170]
+            - paragraph [ref=f3e171]: Your full service lab for clinical trials. Our process is to ensure the generation of accurate and precise findings
+            - paragraph [ref=f3e172]:
+              - strong [ref=f3e173]: We are Trusted by over 250000+ customers
+            - paragraph [ref=f3e174]:
+              - strong [ref=f3e175]: "Excellence :"
+              - text: In technology and consultative services.
+              - strong [ref=f3e176]: "Caring :"
+              - text: By all staff for those we serve.
+              - strong [ref=f3e177]: "Integrity :"
+              - text: In our interactions with customers, colleagues, and ourselves.
+              - strong [ref=f3e178]: "Coolaboration :"
+              - text: Between all stakeholders to ensure collective wisdom and knowledge.
+              - strong [ref=f3e179]: "Cultural Sensitivity :"
+              - text: Value and respect our patients, staff, and visitors regardless of cultural background, race, gender, religion or disability.
+      - img "icon" [ref=f3e180]
+    - generic [ref=f3e181]:
+      - heading "Our Accrediations" [level=2] [ref=f3e184]
+      - generic [ref=f3e186]:
+        - img "patient1" [ref=f3e191]
+        - img "patient1" [ref=f3e196]
+        - img "patient1" [ref=f3e201]
+        - img "patient1" [ref=f3e206]
+        - img "patient1" [ref=f3e211]
+        - img "patient1" [ref=f3e216]
+      - img "service-element-1" [ref=f3e217]
+    - generic [ref=f3e220]:
+      - generic:
+        - img "shape-image" [ref=f3e222]
+        - img "shape-image" [ref=f3e224]
+      - generic [ref=f3e225]:
+        - generic [ref=f3e227]:
+          - heading "Be on Your Way to Feeling Better with the Doccure" [level=2] [ref=f3e228]
+          - paragraph [ref=f3e229]: Be on your way to feeling better as we prioritize your health journey with personalized and accessible services.
+          - link "Contact With Us" [ref=f3e230] [cursor=pointer]:
+            - /url: contact.php?id=Anna%20Nagar
+        - img "doctor-way-image" [ref=f3e233]
+    - generic [ref=f3e235]:
+      - generic [ref=f3e238]:
+        - heading "Get Your Answer" [level=6] [ref=f3e239]
+        - heading "Frequently Asked Questions" [level=2] [ref=f3e240]
+      - generic [ref=f3e241]:
+        - generic [ref=f3e243]:
+          - img "img" [ref=f3e244]
+          - generic [ref=f3e245]:
+            - img "icon" [ref=f3e247]
+            - generic [ref=f3e248]:
+              - heading "95k+" [level=4] [ref=f3e249]
+              - paragraph [ref=f3e250]: Happy Patients
+        - generic [ref=f3e253]:
+          - generic [ref=f3e254]:
+            - heading [level=2] [ref=f3e255]:
+              - link "How do I book an appointment? " [expanded] [ref=f3e256] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - generic "How do I book an appointment? " [ref=f3e257]:
+              - paragraph [ref=f3e260]: Yes, simply visit our website and log in or create an account. Search for a doctor based on specialization, location, or availability & confirm your booking.
+          - heading [level=2] [ref=f3e262]:
+            - link "Can i make an Appointment Online with White Plains Hospital Kendi? " [ref=f3e263] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - heading [level=2] [ref=f3e265]:
+            - link "Is my personal information secure? " [ref=f3e266] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - heading [level=2] [ref=f3e268]:
+            - link "Can I cancel or reschedule my appointment? " [ref=f3e269] [cursor=pointer]:
+              - /url: javascript:void(0)
+          - heading [level=2] [ref=f3e271]:
+            - link "How do I find a specific doctor or specialist? " [ref=f3e272] [cursor=pointer]:
+              - /url: javascript:void(0)
+    - contentinfo [ref=f3e273]:
+      - generic [ref=f3e276]:
+        - generic [ref=f3e278]:
+          - heading "VK Medical Centre" [level=3] [ref=f3e279]
+          - paragraph [ref=f3e280]: Established in 1990, V K Medical Centre offers high-quality diagnostic services in Chennai, delivering trusted lab tests with decades of experience and advanced facilities.
+        - generic [ref=f3e282]:
+          - generic [ref=f3e284]:
+            - heading "Anna Nagar" [level=3] [ref=f3e285]
+            - list [ref=f3e286]:
+              - listitem [ref=f3e287]:
+                - link "Ҽ No. A 45, 3rd Avenue Road, Anna Nagar East, Chennai, TamilNadu - 600102." [ref=f3e288] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=f3e289]: Ҽ
+                  - text: No. A 45, 3rd Avenue Road, Anna Nagar East, Chennai, TamilNadu - 600102.
+              - listitem [ref=f3e290]:
+                - link "ͽ +91 9445988350 / +91 7299991586 / 044-2622 0166" [ref=f3e291] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=f3e292]: ͽ
+                  - text: +91 9445988350 / +91 7299991586 / 044-2622 0166
+          - generic [ref=f3e294]:
+            - heading "Arumbakkam" [level=3] [ref=f3e295]
+            - list [ref=f3e296]:
+              - listitem [ref=f3e297]:
+                - link "Ҽ No. 62/3 West College Road, Panchaliamman koil Street , Arumbakkam, Chennai, Tamilnadu - 600106." [ref=f3e298] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=f3e299]: Ҽ
+                  - text: No. 62/3 West College Road, Panchaliamman koil Street , Arumbakkam, Chennai, Tamilnadu - 600106.
+              - listitem [ref=f3e300]:
+                - link "ͽ +91 9445983350 / 044 - 2363 3350" [ref=f3e301] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=f3e302]: ͽ
+                  - text: +91 9445983350 / 044 - 2363 3350
+        - generic [ref=f3e304]:
+          - heading "Contact Info" [level=3] [ref=f3e305]
+          - paragraph [ref=f3e306]:
+            - generic [ref=f3e307]: ӳ
+            - text: vkmedicalcentre@gmail.com
+          - paragraph [ref=f3e308]:
+            - generic [ref=f3e309]: ͽ
+            - text: +91 7299991586
+          - generic [ref=f3e310]:
+            - heading "Connect With Us" [level=3] [ref=f3e311]
+            - list [ref=f3e312]:
+              - listitem [ref=f3e313]:
+                - link "facebook" [ref=f3e314] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61574931488016
+                  - generic [ref=f3e315]: 
+              - listitem [ref=f3e316]:
+                - link "youtube" [ref=f3e317] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@vkmedicalcentre
+                  - generic [ref=f3e318]: 
+              - listitem [ref=f3e319]:
+                - link "instagram" [ref=f3e320] [cursor=pointer]:
+                  - /url: https://www.instagram.com/vkmedicalcentre/
+                  - generic [ref=f3e321]: 
+      - generic [ref=f3e324]:
+        - paragraph [ref=f3e326]:
+          - text: Copyright © 2026 VK Medical Center. Developed By
+          - link "WebIndia Infotech" [ref=f3e327] [cursor=pointer]:
+            - /url: https://www.webindiainfotech.in/
+        - list [ref=f3e329]:
+          - listitem [ref=f3e330]:
+            - link "Legal Notice" [ref=f3e331] [cursor=pointer]:
+              - /url: legal_notice.php
+          - listitem [ref=f3e332]:
+            - link "Terms" [ref=f3e333] [cursor=pointer]:
+              - /url: terms_and_conditions.php
+          - listitem [ref=f3e334]:
+            - link "Privacy Policy" [ref=f3e335] [cursor=pointer]:
+              - /url: privacy_policy.php
+          - listitem [ref=f3e336]:
+            - link "Refund Policy" [ref=f3e337] [cursor=pointer]:
+              - /url: refund_policy.php
+  - generic "Scroll to top" [ref=f3e338] [cursor=pointer]: 
+  - link "" [ref=f3e340] [cursor=pointer]:
+    - /url: https://wa.me/917299991586
+  - link "" [ref=f3e342] [cursor=pointer]:
+    - /url: tel:+917299991586

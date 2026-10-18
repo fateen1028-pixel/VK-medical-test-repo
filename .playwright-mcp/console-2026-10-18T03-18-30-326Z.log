@@ -1,0 +1,15 @@
+[     103ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/css/bootstrap.min.css:0
+[     103ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/plugins/fontawesome/css/fontawesome.min.css:0
+[     104ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/plugins/fontawesome/css/all.min.css:0
+[     105ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/css/iconsax.css:0
+[     105ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/css/feather.css:0
+[     110ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/plugins/daterangepicker/daterangepicker.css:0
+[     111ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/plugins/fancybox/jquery.fancybox.min.css:0
+[     111ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/css/style.min.css:0
+[     112ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/logo.png:0
+[     112ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/img/bg/breadcrumb-bg-01.png:0
+[     113ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/img/bg/breadcrumb-bg-02.png:0
+[     114ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/img/bg/breadcrumb-icon.png:0
+[     114ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/assets/img/bg/offcanvas-bg.png:0
+[     134ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js:0
+[     149ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8081/vkmedicalcentre/logo.png:0

@@ -1,0 +1,239 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - generic [ref=f1e5]:
+      - generic [ref=f1e6]:
+        - paragraph [ref=f1e7]: vkmedicalcentre@gmail.com
+        - paragraph [ref=f1e8]:
+          - generic [ref=f1e9]: +91 7299991586
+      - list [ref=f1e10]:
+        - listitem [ref=f1e11]:
+          - generic [ref=f1e12]:
+            - button "facebook" [ref=f1e13] [cursor=pointer]:
+              - generic [ref=f1e14]: 
+            - button "youtube" [ref=f1e15] [cursor=pointer]:
+              - generic [ref=f1e16]: 
+            - button "instagram" [ref=f1e17] [cursor=pointer]:
+              - generic [ref=f1e18]: 
+    - banner [ref=f1e19]:
+      - navigation [ref=f1e21]:
+        - generic [ref=f1e22]:
+          - button "Open menu" [ref=f1e23] [cursor=pointer]:
+            - generic [ref=f1e24]: 
+          - link [ref=f1e25] [cursor=pointer]:
+            - /url: index.php
+            - img "Logo" [ref=f1e26]
+        - generic [ref=f1e28]:
+          - generic [ref=f1e29]:
+            - link [ref=f1e30] [cursor=pointer]:
+              - /url: index.php
+              - img "Logo" [ref=f1e31]
+            - button "Close menu" [ref=f1e32] [cursor=pointer]:
+              - generic [ref=f1e33]: 
+          - list [ref=f1e34]:
+            - listitem [ref=f1e35]:
+              - link "Home" [ref=f1e36] [cursor=pointer]:
+                - /url: index.php
+            - listitem [ref=f1e37]:
+              - link "About Us" [ref=f1e38] [cursor=pointer]:
+                - /url: about.php
+            - listitem [ref=f1e39]:
+              - link "Services" [ref=f1e40] [cursor=pointer]:
+                - /url: services.php
+            - listitem [ref=f1e41]:
+              - link "Book Test" [ref=f1e42] [cursor=pointer]:
+                - /url: book-test.php
+            - listitem [ref=f1e43]:
+              - link "Blog" [ref=f1e44] [cursor=pointer]:
+                - /url: blogs.php
+            - listitem [ref=f1e45]:
+              - button "Contact Us " [ref=f1e46] [cursor=pointer]:
+                - text: Contact Us
+                - generic [ref=f1e47]: 
+              - list [ref=f1e49]:
+                - listitem [ref=f1e50]:
+                  - link "Anna Nagar" [ref=f1e51] [cursor=pointer]:
+                    - /url: contact.php?id=Anna Nagar
+                - listitem [ref=f1e52]:
+                  - link "Arumbakkam" [ref=f1e53] [cursor=pointer]:
+                    - /url: contact.php?id=Arumbakkam
+          - generic [ref=f1e54]:
+            - generic [ref=f1e55]:
+              - heading "Contact Information" [level=3] [ref=f1e56]
+              - generic [ref=f1e58]:
+                - paragraph [ref=f1e59]: General Inquiries
+                - heading "vkmedicalcentre@gmail.com" [level=5] [ref=f1e60]
+              - generic [ref=f1e62]:
+                - paragraph [ref=f1e63]: Emergency Cases
+                - heading "+91 7299991586" [level=5] [ref=f1e64]
+            - generic [ref=f1e65]:
+              - heading "Follow Us" [level=3] [ref=f1e66]
+              - list [ref=f1e67]:
+                - listitem [ref=f1e68]:
+                  - button "facebook" [ref=f1e69] [cursor=pointer]:
+                    - generic [ref=f1e70]: 
+                - listitem [ref=f1e71]:
+                  - button "twitter" [ref=f1e72] [cursor=pointer]:
+                    - generic [ref=f1e73]: 
+                - listitem [ref=f1e74]:
+                  - button "instagram" [ref=f1e75] [cursor=pointer]:
+                    - generic [ref=f1e76]: 
+        - list [ref=f1e77]:
+          - listitem [ref=f1e78]:
+            - button "about"
+    - generic [ref=f1e79]:
+      - navigation "breadcrumb" [ref=f1e83]:
+        - list [ref=f1e84]:
+          - listitem [ref=f1e85]:
+            - link "Home":
+              - /url: index.php
+          - listitem [ref=f1e86]: Contact Us
+        - heading "Contact Us" [level=2] [ref=f1e87]
+      - generic [ref=f1e88]:
+        - img "img" [ref=f1e89]
+        - img "img" [ref=f1e90]
+        - img "img" [ref=f1e91]
+        - img "img" [ref=f1e92]
+    - generic [ref=f1e95]:
+      - generic [ref=f1e96]:
+        - generic [ref=f1e97]:
+          - heading "Get in touch" [level=6] [ref=f1e98]
+          - heading "Have Any Question?" [level=2] [ref=f1e99]
+        - generic [ref=f1e102]:
+          - heading "Address" [level=4] [ref=f1e103]
+          - paragraph [ref=f1e104]: No. A 45, 3rd Avenue Road, Anna Nagar East, Chennai, TamilNadu - 600102.
+        - generic [ref=f1e107]:
+          - heading "Phone Number" [level=4] [ref=f1e108]
+          - paragraph [ref=f1e109]: +91 9445988350 / +91 7299991586 / 044-2622 0166
+        - generic [ref=f1e112]:
+          - heading "Email Address" [level=4] [ref=f1e113]
+          - paragraph [ref=f1e114]: vkmedicalcentre@gmail.com
+      - generic [ref=f1e119]:
+        - generic [ref=f1e121]:
+          - text: Name
+          - textbox "Enter your name" [ref=f1e122]
+        - generic [ref=f1e124]:
+          - text: Email
+          - textbox "Enter your email address" [ref=f1e125]
+        - generic [ref=f1e127]:
+          - text: Phone Number
+          - textbox "Enter your phone number" [ref=f1e128]
+        - generic [ref=f1e130]:
+          - text: Message
+          - textbox "Enter your message" [ref=f1e131]
+        - generic [ref=f1e133]:
+          - text: Captcha Code What is 20 + 20?
+          - textbox [ref=f1e134]
+        - button "Send contact message" [ref=f1e137]: Send Message
+    - iframe [ref=f1e139]
+    - contentinfo [ref=f1e140]:
+      - generic [ref=f1e143]:
+        - generic [ref=f1e145]:
+          - heading "VK Medical Centre" [level=3] [ref=f1e146]
+          - paragraph [ref=f1e147]: Established in 1990, V K Medical Centre offers high-quality diagnostic services in Chennai, delivering trusted lab tests with decades of experience and advanced facilities.
+        - generic [ref=f1e149]:
+          - generic [ref=f1e151]:
+            - heading "Anna Nagar" [level=3] [ref=f1e152]
+            - list [ref=f1e153]:
+              - listitem [ref=f1e154]:
+                - link "No. A 45, 3rd Avenue Road, Anna Nagar East, Chennai, TamilNadu - 600102." [ref=f1e155] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f1e156]:
+                - link "+91 9445988350 / +91 7299991586 / 044-2622 0166" [ref=f1e157] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=f1e159]:
+            - heading "Arumbakkam" [level=3] [ref=f1e160]
+            - list [ref=f1e161]:
+              - listitem [ref=f1e162]:
+                - link "No. 62/3 West College Road, Panchaliamman koil Street , Arumbakkam, Chennai, Tamilnadu - 600106." [ref=f1e163] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=f1e164]:
+                - link "+91 9445983350 / 044 - 2363 3350" [ref=f1e165] [cursor=pointer]:
+                  - /url: "#"
+        - generic [ref=f1e167]:
+          - heading "Contact Info" [level=3] [ref=f1e168]
+          - paragraph [ref=f1e169]: vkmedicalcentre@gmail.com
+          - paragraph [ref=f1e170]: +91 7299991586
+          - generic [ref=f1e171]:
+            - heading "Connect With Us" [level=3] [ref=f1e172]
+            - list [ref=f1e173]:
+              - listitem [ref=f1e174]:
+                - link "facebook" [ref=f1e175] [cursor=pointer]:
+                  - /url: https://www.facebook.com/profile.php?id=61574931488016
+                  - generic [ref=f1e176]: 
+              - listitem [ref=f1e177]:
+                - link "youtube" [ref=f1e178] [cursor=pointer]:
+                  - /url: https://www.youtube.com/@vkmedicalcentre
+                  - generic [ref=f1e179]: 
+              - listitem [ref=f1e180]:
+                - link "instagram" [ref=f1e181] [cursor=pointer]:
+                  - /url: https://www.instagram.com/vkmedicalcentre/
+                  - generic [ref=f1e182]: 
+      - generic [ref=f1e185]:
+        - paragraph [ref=f1e187]:
+          - text: Copyright © 2026 VK Medical Center. Developed By
+          - link "WebIndia Infotech" [ref=f1e188] [cursor=pointer]:
+            - /url: https://www.webindiainfotech.in/
+        - list [ref=f1e190]:
+          - listitem [ref=f1e191]:
+            - link "Legal Notice" [ref=f1e192] [cursor=pointer]:
+              - /url: legal_notice.php
+          - listitem [ref=f1e193]:
+            - link "Terms" [ref=f1e194] [cursor=pointer]:
+              - /url: terms_and_conditions.php
+          - listitem [ref=f1e195]:
+            - link "Privacy Policy" [ref=f1e196] [cursor=pointer]:
+              - /url: privacy_policy.php
+          - listitem [ref=f1e197]:
+            - link "Refund Policy" [ref=f1e198] [cursor=pointer]:
+              - /url: refund_policy.php
+  - generic [ref=f1e199]:
+    - generic [ref=f1e200]:
+      - link [ref=f1e201] [cursor=pointer]:
+        - /url: index.php
+        - img "logo" [ref=f1e202]
+      - button "Close" [ref=f1e203]
+    - generic [ref=f1e204]:
+      - generic [ref=f1e205]:
+        - heading "About VK Medical Centre" [level=3] [ref=f1e206]
+        - paragraph [ref=f1e207]: Established in 1990, V K Medical Centre offers high-quality diagnostic services in Chennai, delivering trusted lab tests with decades of experience and advanced facilities.
+      - generic [ref=f1e208]:
+        - heading "Our Locations" [level=3] [ref=f1e209]
+        - generic [ref=f1e210]:
+          - heading "Anna Nagar" [level=4] [ref=f1e211]
+          - paragraph [ref=f1e212]: No. A 45, 3rd Avenue Road, Anna Nagar East, Chennai, TamilNadu - 600102.
+        - generic [ref=f1e213]:
+          - heading "Arumbakkam" [level=4] [ref=f1e214]
+          - paragraph [ref=f1e215]: No. 62/3 West College Road, Panchaliamman koil Street , Arumbakkam, Chennai, Tamilnadu - 600106.
+      - generic [ref=f1e216]:
+        - heading "Contact Information" [level=3] [ref=f1e217]
+        - generic [ref=f1e219]:
+          - paragraph [ref=f1e220]: General Inquiries
+          - heading [level=5] [ref=f1e221]:
+            - link "vkmedicalcentre@gmail.com" [ref=f1e222] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f1e224]:
+          - paragraph [ref=f1e225]: Emergency Cases
+          - heading [level=5] [ref=f1e226]:
+            - link "+91 7299991586" [ref=f1e227] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f1e228]:
+        - heading "Follow Us" [level=3] [ref=f1e229]
+        - list [ref=f1e230]:
+          - listitem [ref=f1e231]:
+            - link "facebook" [ref=f1e232] [cursor=pointer]:
+              - /url: https://www.facebook.com/profile.php?id=61574931488016
+              - generic [ref=f1e233]: 
+          - listitem [ref=f1e234]:
+            - link "youtube" [ref=f1e235] [cursor=pointer]:
+              - /url: https://www.youtube.com/@vkmedicalcentre
+              - generic [ref=f1e236]: 
+          - listitem [ref=f1e237]:
+            - link "instagram" [ref=f1e238] [cursor=pointer]:
+              - /url: https://www.instagram.com/vkmedicalcentre/
+              - generic [ref=f1e239]: 
+    - img "element" [ref=f1e240]
+  - generic "Scroll to top" [ref=f1e241]
+  - link "" [ref=f1e243] [cursor=pointer]:
+    - /url: https://wa.me/917299991586
+  - link "" [ref=f1e245] [cursor=pointer]:
+    - /url: tel:+917299991586
