@@ -1,29 +1,24 @@
 <!DOCTYPE html> 
 <html lang="en">
+<?php
+$vid = (@$_REQUEST['id'] == "") ? "Anna Nagar" : $_REQUEST['id'];
+if ($vid == "Arumbakkam") {
+$seo_title = "Contact Us | VK Medical Centre, Arumbakkam, Chennai";
+$seo_desc = "VK Medical Centre Arumbakkam - No. 62/3 West College Road, Panchaliamman koil Street, Arumbakkam, Chennai 600106. Call +91 9445983350 or 044 2363 3350 for appointments.";
+$seo_canon = "https://vkmedicalcentre.com/contact.php?id=Arumbakkam";
+} else {
+$seo_title = "Contact Us | VK Medical Centre, Anna Nagar, Chennai";
+$seo_desc = "VK Medical Centre Anna Nagar East - No. A 45, 3rd Avenue Road, Chennai 600102. Call +91 7299991586 for X-ray, blood test, ultrasound and ECG appointments.";
+$seo_canon = "https://vkmedicalcentre.com/contact/";
+}
+?>	
 	
 <head>
 		
 		<meta charset="utf-8">
-		<title>VK Medical Centre - Chennai</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		      <meta name="google-site-verification" content="mIIe5_lA0bHp00CTbbBgSpg_x90y3hMtIm9CTxMrnjQ">
-<meta name="description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta name="robots" content="max-image-preview:large">
-<meta name="generator" content="All in One SEO (AIOSEO) 4.9.1.1">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="VK Medical Centre - Diagnostic Service Centre in Chennai">
-<meta property="og:type" content="website">
-<meta property="og:title" content="VK Medical Centre- Chennai&#039;s Best Diagnostic Centre">
-<meta property="og:description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta property="og:url" content="https://vkmedicalcentre.com/">
-<meta property="og:image" content="https://vkmedicalcentre.com/favicon.png">
-<meta property="og:image:secure_url" content="https://vkmedicalcentre.com/favicon.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="VK Medical Centre- Chennai&#039;s Best Diagnostic Centre">
-<meta name="twitter:description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta name="twitter:image" content="https://vkmedicalcentre.com/favicon.png">
-<meta name="generator" content="Elementor 3.33.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-<meta name="msapplication-TileImage" content="https://vkmedicalcentre.com/favicon.png">
+<?php include('seo-head.php'); ?>
 
  
 		
@@ -81,7 +76,7 @@
 									<li class="breadcrumb-item"><a href="index.php" aria-label="Home"><i class="isax isax-home-15"></i></a></li>
 									<li class="breadcrumb-item active">Contact Us</li>
 								</ol>
-								<h2 class="breadcrumb-title">Contact Us</h2>
+								<h1 class="breadcrumb-title">Contact Us - <?php echo $vid; ?></h1>
 							</nav>
 						</div>
 					</div>

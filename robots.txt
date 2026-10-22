@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /onlineadmin/
+Disallow: /home.php
+Disallow: /about.php
+Disallow: /about-us.php
+Disallow: /about_us.php
+Disallow: /book-a-test.php
+Disallow: /test.php
+Disallow: /test1.php
+Disallow: /right.php
+
+Sitemap: https://vkmedicalcentre.com/sitemap.xml

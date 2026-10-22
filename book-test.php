@@ -1,30 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php $seo_title = "Health Checkup Packages in Chennai | VK Medical Centre";
+$seo_desc = "Health checkup packages and blood tests in Chennai - book any diagnostic test online or request home sample collection. Anna Nagar and Arumbakkam centres.";
+$seo_canon = "https://vkmedicalcentre.com/book-test/";
+?>
 	
 <head>
 
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1" >
 		      <meta name="google-site-verification" content="mIIe5_lA0bHp00CTbbBgSpg_x90y3hMtIm9CTxMrnjQ">
-<meta name="description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta name="robots" content="max-image-preview:large">
-<meta name="generator" content="All in One SEO (AIOSEO) 4.9.1.1">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="VK Medical Centre - Diagnostic Service Centre in Chennai">
-<meta property="og:type" content="website">
-<meta property="og:title" content="VK Medical Centre- Chennai&#039;s Best Diagnostic Centre">
-<meta property="og:description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta property="og:url" content="https://vkmedicalcentre.com/">
-<meta property="og:image" content="https://vkmedicalcentre.com/favicon.png">
-<meta property="og:image:secure_url" content="https://vkmedicalcentre.com/favicon.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="VK Medical Centre- Chennai&#039;s Best Diagnostic Centre">
-<meta name="twitter:description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta name="twitter:image" content="https://vkmedicalcentre.com/favicon.png">
-<meta name="generator" content="Elementor 3.33.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-<meta name="msapplication-TileImage" content="https://vkmedicalcentre.com/favicon.png">
- 
-		<title>VK medical Centre</title>
+<meta name="description" content="Health checkup packages and blood tests in Chennai - book any diagnostic test online or request home sample collection. Anna Nagar and Arumbakkam centres.">
+<?php include('seo-head.php'); ?>
 		
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
@@ -77,7 +64,7 @@
 									<li class="breadcrumb-item"><a href="index.php" aria-label="home"><i class="isax isax-home-15"></i></a></li>
 									<li class="breadcrumb-item active">Book Test</li>
 								</ol>
-								<h2 class="breadcrumb-title">Book Test</h2>
+								<h1 class="breadcrumb-title">Book a Test</h1>
 							</nav>
 						</div>
 					</div>

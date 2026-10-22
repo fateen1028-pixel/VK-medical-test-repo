@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php $seo_title = "Diagnostic Centre in Anna Nagar & Arumbakkam, Chennai | VK Medical Centre";
+$seo_desc = "Diagnostic centre in Anna Nagar & Arumbakkam, Chennai - blood tests, digital X-ray, ECG, ultrasound, Doppler, TMT, PFT and home sample collection. Call +91 7299991586.";
+$seo_canon = "https://vkmedicalcentre.com/";
+?>
 	
 <head>
 
@@ -7,23 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" >
 		
         <meta name="google-site-verification" content="mIIe5_lA0bHp00CTbbBgSpg_x90y3hMtIm9CTxMrnjQ">
-<meta name="description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta name="robots" content="max-image-preview:large">
-<meta name="generator" content="All in One SEO (AIOSEO) 4.9.1.1">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="VK Medical Centre - Diagnostic Service Centre in Chennai">
-<meta property="og:type" content="website">
-<meta property="og:title" content="VK Medical Centre- Chennai&#039;s Best Diagnostic Centre">
-<meta property="og:description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta property="og:url" content="https://vkmedicalcentre.com/">
-<meta property="og:image" content="https://vkmedicalcentre.com/favicon.png">
-<meta property="og:image:secure_url" content="https://vkmedicalcentre.com/favicon.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="VK Medical Centre- Chennai&#039;s Best Diagnostic Centre">
-<meta name="twitter:description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta name="twitter:image" content="https://vkmedicalcentre.com/favicon.png">
-<meta name="generator" content="Elementor 3.33.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-<meta name="msapplication-TileImage" content="https://vkmedicalcentre.com/favicon.png">
+<?php include('seo-head.php'); ?>
 
 
         
@@ -32,7 +20,6 @@
         
         
         
-		<title>VK Medical Centre - Chennai</title>
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
@@ -213,8 +200,8 @@
 											<p class="avatar-ttile">5698+ <span> Results has been delivered </span> </p>
 										</div>
 									</div>
-									<h1 class="section-title mb-0 mb-2">Accurate Lab <br> Results Delivered <br><span>to Your Doorstep</span> </h1>
-									<p class="paragraph">Trusted, fast, and precise laboratory testing powered by advanced technology and qualified professionals around the world.</p>
+									<h1 class="section-title mb-0 mb-2">Trusted Diagnostic Centre in <br><span>Anna Nagar &amp; Arumbakkam, Chennai</span> </h1>
+									<p class="paragraph">Accurate lab results delivered to your doorstep - blood tests, digital X-ray, ECG, ultrasound and more, powered by advanced technology and qualified professionals.</p>
 
 									<?php /*?><div class="search-input">
 										<i class="isax isax-search-normal search-icon"></i>
@@ -774,8 +761,8 @@
 						<div class="slide-item wow fadeInUp" data-wow-duration="1s">
 							<div class="card doctor-item">
 								<div class="card-img card-img-hover">
-                                <div align="center"><h6 class="" style="margin-top:20px; height:50px;"><a href="<?php echo str_replace(" ","_",$rsdata->cat); ?>/"><?php echo $rsdata->cat; ?></a></h6><br></div>
-									<a href="<?php echo str_replace(" ","_",$rsdata->cat); ?>/"><img src="Products/Large/<?php echo $rsdata->banner_img; ?>" alt=""></a>
+                                <div align="center"><h6 class="" style="margin-top:20px; height:50px;"><a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/"><?php echo $rsdata->cat; ?></a></h6><br></div>
+									<a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/"><img src="Products/Large/<?php echo $rsdata->banner_img; ?>" alt=""></a>
 									<!--<div class="grid-overlay-item">
 										<span class="badge bg-orange"><i class="fa-solid fa-star me-1"></i>5.0</span>
 										<a href="#" class="fav-icon" aria-label="Add to favorites" tabindex="-1">
@@ -793,11 +780,11 @@
 									</div><?php */?>
 									<div class="doctor-info">
 										<div class="doctor-info-detail">
-											<h6 class="" style="margin-top:20px; height:50px;"><a href="<?php echo str_replace(" ","_",$rsdata->cat); ?>/"><?php echo $rsdata->email; ?></a></h6>
+											<h6 class="" style="margin-top:20px; height:50px;"><a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/"><?php echo $rsdata->email; ?></a></h6>
 										</div>
 										<div class="doctor-footer">
 											<div>
-												<p class="mb-1"><a href="<?php echo str_replace(" ","_",$rsdata->cat); ?>/" style="font-weight:600; color:#2f80ed;">Read More</a></p>
+												<p class="mb-1"><a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/" style="font-weight:600; color:#2f80ed;">Read More</a></p>
 												<!--<div class="price">$650</div>-->
 											</div>
 											<?php /*?><a href="#" class="btn btn-md book-btn" aria-label="Book appointment">

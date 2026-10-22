@@ -1,35 +1,12 @@
 <!DOCTYPE html> 
 <html lang="en">
-	 <?php
-	
-	//echo $_SERVER['REQUEST_URI'];
-	 $a = explode("/",$_SERVER['REQUEST_URI']); 
-	 
-	 echo $a[3];
-	 ?>
+<?php $seo_cat = isset($_REQUEST['id']) ? $_REQUEST['id'] : ""; ?>
 <head>
 
 		<meta charset="utf-8">
-		<title>VK Medical Centre - Chennai</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		      <meta name="google-site-verification" content="mIIe5_lA0bHp00CTbbBgSpg_x90y3hMtIm9CTxMrnjQ">
-<meta name="description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta name="robots" content="max-image-preview:large">
-<meta name="generator" content="All in One SEO (AIOSEO) 4.9.1.1">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="VK Medical Centre - Diagnostic Service Centre in Chennai">
-<meta property="og:type" content="website">
-<meta property="og:title" content="VK Medical Centre- Chennai&#039;s Best Diagnostic Centre">
-<meta property="og:description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta property="og:url" content="https://vkmedicalcentre.com/">
-<meta property="og:image" content="https://vkmedicalcentre.com/favicon.png">
-<meta property="og:image:secure_url" content="https://vkmedicalcentre.com/favicon.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="VK Medical Centre- Chennai&#039;s Best Diagnostic Centre">
-<meta name="twitter:description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta name="twitter:image" content="https://vkmedicalcentre.com/favicon.png">
-<meta name="generator" content="Elementor 3.33.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-<meta name="msapplication-TileImage" content="https://vkmedicalcentre.com/favicon.png">	
+<?php include('seo-head.php'); ?>
 		
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
@@ -98,7 +75,7 @@
 									<li class="breadcrumb-item" aria-current="page"><?php echo $rsdatas->cat2; ?></li>
 									<li class="breadcrumb-item active"><?php echo $rsdatas->cat; ?></li>
 								</ol>
-								<h2 class="breadcrumb-title"><?php echo $rsdatas->cat; ?></h2>
+								<h1 class="breadcrumb-title"><?php echo htmlspecialchars(isset($seo_h1) ? $seo_h1 : $rsdatas->cat, ENT_QUOTES, "UTF-8"); ?></h1>
 							</nav>
 						</div>
 					</div>
@@ -192,13 +169,13 @@
                                         
                                         <li>
 											<div class="post-thumb">
-												<a href="service-details.php?id=<?php echo $rsdata->cat; ?>">
+												<a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/">
 													<img class="img-fluid" src="Products/Large/<?php echo $rsdata->banner_img; ?>" alt="blog-image">
 												</a>
 											</div>
 											<div class="post-info">
 												<h4>
-													<a href="service-details.php?id=<?php echo $rsdata->cat; ?>"><?php echo $rsdata->cat; ?> - <?php echo $rsdata->email; ?></a>
+													<a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/"><?php echo $rsdata->cat; ?> - <?php echo $rsdata->email; ?></a>
 												</h4>
 											</div>
 										</li>

@@ -180,13 +180,13 @@
                                         
                                         <li>
 											<div class="post-thumb">
-												<a href="service-details.php?id=<?php echo $rsdata->cat; ?>">
+												<a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/">
 													<img class="img-fluid" src="Products/Large/<?php echo $rsdata->banner_img; ?>" alt="blog-image">
 												</a>
 											</div>
 											<div class="post-info">
 												<h4>
-													<a href="service-details.php?id=<?php echo $rsdata->cat; ?>" style="line-height:22px;"><?php echo $rsdata->cat; ?> - <?php echo $rsdata->email; ?></a>
+													<a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/" style="line-height:22px;"><?php echo $rsdata->cat; ?> - <?php echo $rsdata->email; ?></a>
 												</h4>
 											</div>
 										</li>

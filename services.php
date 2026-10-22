@@ -1,29 +1,15 @@
 <!DOCTYPE html> 
 <html lang="en">
+<?php $seo_title = "Diagnostic Services in Chennai - Blood Test, X-Ray, ECG, USG & More | VK Medical Centre";
+$seo_desc = "Pathology and imaging services in Chennai - blood test laboratory, digital X-ray, ECG, ultrasound (USG), colour Doppler, 2D echo, PFT, audiometry, TMT and uroflowmetry.";
+$seo_canon = "https://vkmedicalcentre.com/services/";
+?>
 	
 <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		      <meta name="google-site-verification" content="mIIe5_lA0bHp00CTbbBgSpg_x90y3hMtIm9CTxMrnjQ">
-<meta name="description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta name="robots" content="max-image-preview:large">
-<meta name="generator" content="All in One SEO (AIOSEO) 4.9.1.1">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="VK Medical Centre - Diagnostic Service Centre in Chennai">
-<meta property="og:type" content="website">
-<meta property="og:title" content="VK Medical Centre- Chennai&#039;s Best Diagnostic Centre">
-<meta property="og:description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta property="og:url" content="https://vkmedicalcentre.com/">
-<meta property="og:image" content="https://vkmedicalcentre.com/favicon.png">
-<meta property="og:image:secure_url" content="https://vkmedicalcentre.com/favicon.png">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="VK Medical Centre- Chennai&#039;s Best Diagnostic Centre">
-<meta name="twitter:description" content="Looking for a Diagnostic Centre in Chennai? Get X-ray, ECG, Ultrasound and Full-body tests with secure Home sample collection and fast digital reporting.">
-<meta name="twitter:image" content="https://vkmedicalcentre.com/favicon.png">
-<meta name="generator" content="Elementor 3.33.5; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-<meta name="msapplication-TileImage" content="https://vkmedicalcentre.com/favicon.png">
- 
-		<title>VK Medical Centre - Chennai</title>
+<?php include('seo-head.php'); ?>
 		
 		<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
@@ -85,7 +71,7 @@
 									<li class="breadcrumb-item"><a href="index.php" aria-label="home"><i class="isax isax-home-15"></i></a></li>
 									<li class="breadcrumb-item active">Services</li>
 								</ol>
-								<h2 class="breadcrumb-title">Services</h2>
+								<h1 class="breadcrumb-title">Diagnostic Services in Chennai</h1>
 							</nav>
 						</div>
 					</div>
@@ -145,7 +131,7 @@
                         		<div class="col-md-12 col-lg-4 col-xl-4 product-custom d-flex">
 	                                <div class="profile-widget w-100">
 										<div class="doc-img">
-											<a href="<?php echo str_replace(" ","_",$rsdata->cat); ?>/" tabindex="-1">
+											<a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/" tabindex="-1">
 												<img class="img-fluid" alt="Product image" src="Products/Large/<?php echo $rsdata->banner_img; ?>">
 											</a>
 											<a href="javascript:void(0)" class="fav-btn" tabindex="-1">
@@ -154,11 +140,11 @@
 										</div>
 										<div class="pro-content">
 											<h2 class="title">
-												<a href="<?php echo str_replace(" ","_",$rsdata->cat); ?>/" tabindex="-1"><?php echo $rsdata->cat; ?></a> 
+												<a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/" tabindex="-1"><?php echo $rsdata->cat; ?></a> 
 											</h2>
 											<div class="row align-items-center">
 												<div class="col-lg-12 d-flex">
-													<a href="<?php echo str_replace(" ","_",$rsdata->cat); ?>/" tabindex="-1" style="color:#0099CC; font-weight:600;">Read More -></a> 
+													<a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/" tabindex="-1" style="color:#0099CC; font-weight:600;">Read More -></a> 
 												</div>
 											</div>
 										</div>

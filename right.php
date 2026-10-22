@@ -16,12 +16,12 @@
                                         
                                         <li>
 											<div class="post-thumb">
-												<a href="<?php echo str_replace(" ","_",$rsdata->cat); ?>/">
+												<a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/">
 													<img class="img-fluid" src="Products/Large/<?php echo $rsdata->banner_img; ?>" alt="blog-image">
 												</a>
 											</div>
 											<div class="post-info">
-												<a href="<?php echo str_replace(" ","_",$rsdata->cat); ?>/"><h4>
+												<a href="<?php echo preg_replace("/\\s+/","_",trim($rsdata->cat)); ?>/"><h4>
 													<?php echo $rsdata->cat; ?> <br> 
 												</h4>
                                                 <?php echo $rsdata->email; ?></a>
